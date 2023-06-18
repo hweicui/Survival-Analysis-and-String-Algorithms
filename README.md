@@ -20,23 +20,34 @@
 surviveGUI.py 程序使用说明
 
 1.将该程序和欲分析的csv文件放在同一个文件夹
+
 2.输入文件名称
+
 3.
 -希望绘制生存分析曲线
+
 输入:
+
 Duration Coloun-时间，在生存分析csv文件中常用time表示
+
 Event Colomn-表示阴性（存活）或阳性（死亡），请保证这一排的csv文件以数字0和1来表示存活和死亡。
+
 Gender Column-性别，请保证性别以1或2表示男性/女性
+
 Age Column-年龄，请保证年龄是正整数。
 
 选择Analysis Method:包括 Kaplan-Meier 方法 和 Nelson-Aaron 方法。
+
 选择Group By：包括 Age 和 Gender
 
 点击Perform Analysis以生成图标
 
 -希望统计表格某列的数据
+
 *请保证该列仅有数字和NA
+
 在 Select Attribute 栏输入想要统计的列
+
 点击 Perform Statistics 以生成显示统计信息的对话框
 
 
